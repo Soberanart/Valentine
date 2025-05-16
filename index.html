@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Day</title>
+    <meta name="description" content="Meu pedido para um encontro com meu amor Nicole Assunção">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Tela Incial-->
+    <div class="screen" id="initial-screen">
+        <div id="question-container">
+            <img src="gif-inicial3.gif" alt="um urso irritando o outro cutucando ele">
+            <h1>Você quer ir em um date comigo <br> no dia dos namorados?</h1>
+                <button id="yes-button">SIM!</button>
+                <button id="no-button">Não</button>
+        </div>
+    </div>
+
+    <!--Tela de Carregamento-->
+    <div class="screen" id="loader-screen">
+        <img src="heart-loader.gif" alt="gif de coracao de carregamento para proxima etapa"/>
+        <h2>Carregando...</h2>
+    </div>
+
+    <!--Tela Final-->
+    <div class="screen" id="final-screen">
+        <img src="final-emote.gif" class="final-emote" alt="um urso beijando e amando outro">
+        <h2>YAAY!</h2>
+        <p>Você vai ao melhor encontro da sua vida!<br> Se prepare <span>quinta-feira 19h, 12 de junho de 2025</span> ❤️</p> <br>
+        <button onclick="ReturnScreen()", id="return-button">
+        Voltar
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
